@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background-color: rgb(230, 215, 215);
+}
+strong {
+  font-size: 46px;
+}
+.my-name {
+  color: rgb(230, 215, 215);
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 15px;
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  #info {
+    padding: 20px;
+    font-size: 18px;
+  }
+}
+
+#info {
+  font-size: 20px;
+  margin: 40px auto;
+  max-width: 1000px;
+  width: 90%;
+  background: var(--primary-color);
+  color: white;
+  border: var(--border-line);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 30px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+:root {
+  --primary-color: rgb(63, 63, 63);
+  --box-shadow: 10px 5px 30px rgba(0, 0, 0, 0.6);
+  --padding-div: 15px 30px;
+  --border-line: 1px solid black;
+  --border-radius: 20px;
+}
+#contact,
+.ai-gen {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  border: var(--border-line);
+  color: white;
+  padding: var(--padding-div);
+  border-radius: var(--border-radius);
+}
+#contact:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+#about {
+  background-color: white;
+  color: black;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: var(--padding-div);
+}
+#about:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+.custom-colour {
+  background-color: var(--primary-color);
+}
+.nav-link {
+  color: white;
+}
+
+.icon-color {
+  background-color: rgb(230, 215, 215);
+  border-radius: 5px;
+}
+.my-name:hover {
+  color: white;
+}
+.nav-link,
+.ai-gen:hover {
+  color: rgb(230, 215, 215);
+}
